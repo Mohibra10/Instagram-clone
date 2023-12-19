@@ -1,0 +1,36 @@
+.top__nav{
+  width:100%;
+  height: 60px;
+  margin-top:0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom:1px solid lightgrey;
+  position: sticky;
+  top: 0;
+  background: white;
+}
+.top__nav > .left,.right{
+  display: flex;
+  flex:0.5;
+  font-size: 15px;
+  margin-left: 5px;
+  align-items: center;
+}
+.left h4{
+  font-size: 20px;
+}
+.top__nav > .right{
+  justify-content: space-evenly;
+}
+.right>h2{
+
+}
+.right .add__icon{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 6px;
+}
